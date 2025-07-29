@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>It’s been a year</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html, body {
+        scroll-snap-type: y mandatory;
+        overflow-y: scroll;
+        height: 100vh;
+        margin: 0;
+        font-family: sans-serif;
+      }
+      section {
+        scroll-snap-align: start;
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body class="bg-[#fff9f5] text-gray-800">
+    <!-- Titre d’accueil -->
+    <section class="flex flex-col items-center justify-center px-8 text-center">
+      <h1 class="text-4xl md:text-6xl font-bold mb-4">It’s been a year, day for day.</h1>
+      <p class="text-lg text-gray-600">Scroll down</p>
+    </section>
+
+    <!-- 9 Blocs -->
+    <!-- Bloc template à répéter avec ton contenu -->
+    <section class="flex flex-col items-center justify-center px-8 text-center bg-[#fdf0f0]">
+        <p class="text-2xl max-w-xl">[Message 1]</p>
+        <img src="wolfchan.png" alt="Wolf Chan" class="w-32 h-32 mt-4" />
+        <img src="image1.jpg" alt="Custom Image" class="w-48 h-32 mt-4 rounded-lg object-cover" />
+    </section>
+<section class="flex flex-col items-center justify-center px-8 text-center bg-[#fdf1f1]">
+        <p class="text-2xl max-w-xl">[Message 2]</p>
+        <img src="wolfchan.png" alt="Wolf Chan" class="w-32 h-32 mt-4" />
+        <img src="image2.jpg" alt="Custom Image" class="w-48 h-32 mt-4 rounded-lg object-cover" />
+    </section>
+<section class="flex flex-col items-center justify-center px-8 text-center bg-[#fdf2f2]">
+        <p class="text-2xl max-w-xl">[Message 3]</p>
+        <img src="wolfchan.png" alt="Wolf Chan" class="w-32 h-32 mt-4" />
+        <img src="image3.jpg" alt="Custom Image" class="w-48 h-32 mt-4 rounded-lg object-cover" />
+    </section>
+<section class="flex flex-col items-center justify-center px-8 text-center bg-[#fdf3f3]">
+        <p class="text-2xl max-w-xl">[Message 4]</p>
+        <img src="wolfchan.png" alt="Wolf Chan" class="w-32 h-32 mt-4" />
+        <img src="image4.jpg" alt="Custom Image" class="w-48 h-32 mt-4 rounded-lg object-cover" />
+    </section>
+<section class="flex flex-col items-center justify-center px-8 text-center bg-[#fdf4f4]">
+        <p class="text-2xl max-w-xl">[Message 5]</p>
+        <img src="wolfchan.png" alt="Wolf Chan" class="w-32 h-32 mt-4" />
+        <img src="image5.jpg" alt="Custom Image" class="w-48 h-32 mt-4 rounded-lg object-cover" />
+    </section>
+<section class="flex flex-col items-center justify-center px-8 text-center bg-[#fdf5f5]">
+        <p class="text-2xl max-w-xl">[Message 6]</p>
+        <img src="wolfchan.png" alt="Wolf Chan" class="w-32 h-32 mt-4" />
+        <img src="image6.jpg" alt="Custom Image" class="w-48 h-32 mt-4 rounded-lg object-cover" />
+    </section>
+<section class="flex flex-col items-center justify-center px-8 text-center bg-[#fdf6f6]">
+        <p class="text-2xl max-w-xl">[Message 7]</p>
+        <img src="wolfchan.png" alt="Wolf Chan" class="w-32 h-32 mt-4" />
+        <img src="image7.jpg" alt="Custom Image" class="w-48 h-32 mt-4 rounded-lg object-cover" />
+    </section>
+<section class="flex flex-col items-center justify-center px-8 text-center bg-[#fdf7f7]">
+        <p class="text-2xl max-w-xl">[Message 8]</p>
+        <img src="wolfchan.png" alt="Wolf Chan" class="w-32 h-32 mt-4" />
+        <img src="image8.jpg" alt="Custom Image" class="w-48 h-32 mt-4 rounded-lg object-cover" />
+    </section>
+<section class="flex flex-col items-center justify-center px-8 text-center bg-[#fdf8f8]">
+        <p class="text-2xl max-w-xl">[Message 9]</p>
+        <img src="wolfchan.png" alt="Wolf Chan" class="w-32 h-32 mt-4" />
+        <img src="image9.jpg" alt="Custom Image" class="w-48 h-32 mt-4 rounded-lg object-cover" />
+    </section>
+
+    <!-- Quiz section -->
+    <section class="flex flex-col items-center justify-center px-8 text-center bg-[#e0f7fa]">
+      <h2 class="text-2xl font-bold mb-4">Petit quiz</h2>
+      <div id="quiz" class="space-y-4 text-left max-w-xl w-full">
+        <!-- Les questions seront ajoutées ici plus tard -->
+        <p class="text-center text-gray-500">Le quiz arrive bientôt...</p>
+      </div>
+    </section>
+
+    <!-- Section finale -->
+    <section class="flex flex-col items-center justify-center px-8 text-center bg-[#ffe6e6]">
+      <p class="text-xl mb-4">Tu réponds si tu veux, bien sûr.</p>
+      <button onclick="alert('Je ne veux plus rien à faire avec toi')" class="bg-red-600 text-white px-4 py-2 rounded-lg">
+        pour en finir
+      </button>
+    </section>
+  </body>
+</html>
