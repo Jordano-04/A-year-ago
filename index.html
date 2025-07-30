@@ -31,14 +31,36 @@
 
     <!-- 9 Blocs -->
     <!-- Bloc template à répéter avec ton contenu -->
-    <section class="flex flex-col items-center justify-center px-8 text-center bg-[#fdf0f0]">
-       <img src="hello.png" alt="Wolf Chan" class="w-40 h-40 mt-4" />
-        <p class="text-2xl max-w-xl whitespace-nowrap">You met a random guy who didn’t wanted to wait for you in the morning but was sad to leave you in the afternoon
-It was supposed to be you meeting the team mate of your best friend but things went crazy.
-In just 72 hours you guys were feeling each other.
-It was a heart break situation when you two realized it then had to be separated for a long time. </p>
-        <img src="IMG_9786.jpeg" alt="Custom Image" class="w-60 h-50 mt-4 rounded-lg object-cover" />
-    </section>
+   <section className="flex flex-col justify-between h-screen p-8 bg-white text-black">
+  {/* Partie haute : Texte gauche + Wolf Chan droite */}
+  <div className="flex items-start">
+    <div className="flex-1 pr-8">
+      <p className="text-lg leading-relaxed">
+        You met a random guy who didn’t want to wait for you in the morning<br />
+        but was sad to leave you in the afternoon.<br />
+        It was supposed to be you meeting the teammate of your best friend<br />
+        but things went crazy.
+      </p>
+    </div>
+    <div className="w-40">
+      <img src="hello.png" alt="Wolf Chan" className="w-full h-auto object-contain" />
+    </div>
+  </div>
+
+  {/* Partie basse : image gauche + texte droite */}
+  <div className="flex items-end mt-12">
+    <div className="w-40">
+      <img src="IMG_9786.png" alt="Image bottom left" className="w-full h-auto object-contain" />
+    </div>
+    <div className="flex-1 pl-8">
+      <p className="text-lg leading-relaxed">
+        In just 72 hours you guys were feeling each other.<br />
+        It was a heartbreak situation when you two realized it<br />
+        then had to be separated for a long time.
+      </p>
+    </div>
+  </div>
+</section>
 <section class="flex flex-col items-center justify-center px-8 text-center bg-[#fdf1f1]">
         <p class="text-2xl max-w-xl">[Message 2]</p>
         <img src="wolfchan.png" alt="Wolf Chan" class="w-32 h-32 mt-4" />
