@@ -8,6 +8,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
       html, body {
+        background-color: white;
+        color: black;
         scroll-snap-type: y mandatory;
         overflow-y: scroll;
         height: 100vh;
@@ -31,7 +33,7 @@
     <!-- Bloc template à répéter avec ton contenu -->
     <section class="flex flex-col items-center justify-center px-8 text-center bg-[#fdf0f0]">
        <img src="hello.png" alt="Wolf Chan" class="w-40 h-40 mt-4" />
-        <p class="text-2xl max-w-xl">You met a random guy who didn’t wanted to wait for you in the morning but was sad to leave you in the afternoon
+        <p class="text-2xl max-w-xl whitespace-nowrap">You met a random guy who didn’t wanted to wait for you in the morning but was sad to leave you in the afternoon
 It was supposed to be you meeting the team mate of your best friend but things went crazy.
 In just 72 hours you guys were feeling each other.
 It was a heart break situation when you two realized it then had to be separated for a long time. </p>
@@ -76,15 +78,6 @@ It was a heart break situation when you two realized it then had to be separated
         <p class="text-2xl max-w-xl">[Message 9]</p>
         <img src="wolfchan.png" alt="Wolf Chan" class="w-32 h-32 mt-4" />
         <img src="image9.jpg" alt="Custom Image" class="w-48 h-32 mt-4 rounded-lg object-cover" />
-    </section>
-
-    <!-- Quiz section -->
-    <section class="flex flex-col items-center justify-center px-8 text-center bg-[#e0f7fa]">
-      <h2 class="text-2xl font-bold mb-4">Petit quiz</h2>
-      <div id="quiz" class="space-y-4 text-left max-w-xl w-full">
-        <!-- Les questions seront ajoutées ici plus tard -->
-        <p class="text-center text-gray-500">Le quiz arrive bientôt...</p>
-      </div>
     </section>
 
     <!-- Section finale -->
